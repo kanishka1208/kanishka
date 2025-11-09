@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanishka Sharma - Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body data-theme="dark">
+    <div class="bg-animation">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <header data-aos="fade-down">
+        <div class="logo">KS</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="theme-toggle" onclick="toggleTheme()"></div>
+        <div class="mobile-toggle">☰</div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-subtitle" data-aos="fade-up">Web Developer & Designer</div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                Kanishka Sharma — <span>Crafting simple & beautiful web experiences</span>
+            </h1>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="200">
+                Crafting beautiful, responsive, and user-friendly web experiences with 3+ years of expertise in modern
+                web technologies.
+            </p>
+            <button class="cv-button" onclick="downloadCV()" data-aos="zoom-in" data-aos-delay="300">
+                <i class="fas fa-download"></i>
+                Download CV
+            </button>
+        </div>
+        <div class="banner-img">
+            <img src="assets/images/kk.jpg">
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <h2 class="skills-title" data-aos="fade-up">My Skills & Expertise</h2>
+        <div class="marquee">
+            <div class="skill-card"><i class="fab fa-html5 skill-icon" style="color: #E34F26;"></i><span
+                    class="skill-name">HTML5</span></div>
+            <div class="skill-card"><i class="fab fa-css3-alt skill-icon" style="color: #1572B6;"></i><span
+                    class="skill-name">CSS3</span></div>
+            <div class="skill-card"><i class="fab fa-bootstrap skill-icon" style="color: #7952B3;"></i><span
+                    class="skill-name">Bootstrap</span></div>
+            <div class="skill-card"><i class="fab fa-js skill-icon" style="color: #F7DF1E;"></i><span
+                    class="skill-name">JavaScript</span></div>
+            <div class="skill-card"><i class="fab fa-sass skill-icon" style="color: #CC6699;"></i><span
+                    class="skill-name">SCSS/Sass</span></div>
+            <div class="skill-card"><i class="fab fa-figma skill-icon" style="color: #F24E1E;"></i><span
+                    class="skill-name">Figma</span></div>
+            <div class="skill-card"><i class="fab fa-html5 skill-icon" style="color: #E34F26;"></i><span
+                    class="skill-name">HTML5</span></div>
+            <div class="skill-card"><i class="fab fa-css3-alt skill-icon" style="color: #1572B6;"></i><span
+                    class="skill-name">CSS3</span></div>
+            <div class="skill-card"><i class="fab fa-bootstrap skill-icon" style="color: #7952B3;"></i><span
+                    class="skill-name">Bootstrap</span></div>
+        </div>
+        <div class="marquee marquee-reverse" style="margin-top: 20px;">
+            <div class="skill-card"><i class="fab fa-wordpress skill-icon" style="color: #21759B;"></i><span
+                    class="skill-name">WordPress</span></div>
+            <div class="skill-card"><i class="fab fa-shopify skill-icon" style="color: #96BF48;"></i><span
+                    class="skill-name">Shopify</span></div>
+            <div class="skill-card"><svg class="skill-icon" style="width:32px;height:32px" viewBox="0 0 24 24">
+                    <path fill="#31A8FF"
+                        d="M13.5 2L6 9.5L7.5 11L13.5 5L19.5 11L21 9.5L13.5 2M13.5 8L6 15.5L7.5 17L13.5 11L19.5 17L21 15.5L13.5 8Z" />
+                </svg><span class="skill-name">Adobe XD</span></div>
+            <div class="skill-card"><i class="fab fa-react skill-icon" style="color: #61DAFB;"></i><span
+                    class="skill-name">jQuery</span></div>
+            <div class="skill-card"><i class="fab fa-github skill-icon" style="color: #fff;"></i><span
+                    class="skill-name">Git/GitHub</span></div>
+            <div class="skill-card"><i class="fab fa-wordpress skill-icon" style="color: #21759B;"></i><span
+                    class="skill-name">WordPress</span></div>
+            <div class="skill-card"><i class="fab fa-shopify skill-icon" style="color: #96BF48;"></i><span
+                    class="skill-name">Shopify</span></div>
+            <div class="skill-card"><svg class="skill-icon" style="width:32px;height:32px" viewBox="0 0 24 24">
+                    <path fill="#31A8FF"
+                        d="M13.5 2L6 9.5L7.5 11L13.5 5L19.5 11L21 9.5L13.5 2M13.5 8L6 15.5L7.5 17L13.5 11L19.5 17L21 15.5L13.5 8Z" />
+                </svg><span class="skill-name">Adobe XD</span></div>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+        <div class="projects-slider">
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800" alt="Project"
+                    class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">E-commerce Platform</h3>
+                    <p class="project-description">Modern shopping experience with seamless checkout</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800" alt="Project"
+                    class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p class="project-description">Creative showcase with stunning animations</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800" alt="Project"
+                    class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">Business Dashboard</h3>
+                    <p class="project-description">Data visualization and analytics platform</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800" alt="Project"
+                    class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">Restaurant Website</h3>
+                    <p class="project-description">Elegant design with online ordering system</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800" alt="Project"
+                    class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">E-commerce Platform</h3>
+                    <p class="project-description">Modern shopping experience with seamless checkout</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800" alt="Project"
+                    class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p class="project-description">Creative showcase with stunning animations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience-section" id="experience">
+        <h2 class="section-title" data-aos="fade-up">Experience Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right">
+                <div class="experience-year">July 2023 – Present</div>
+                <h3 class="experience-title">Web Designer</h3>
+                <p class="experience-description">
+                    At Stand In Crowd Technologies, I design and develop visually stunning, user-friendly websites for a
+                    wide range of clients. My role focuses on crafting responsive layouts and pixel-perfect interfaces
+                    that work seamlessly across all devices. I collaborate closely with developers and fellow designers
+                    to deliver high-quality digital experiences that align with client goals. Alongside project
+                    execution, I actively contribute to brainstorming sessions, bringing fresh creative ideas and
+                    implementing client feedback efficiently. I also enhance user experience through thoughtful
+                    animations and optimization techniques that improve performance and overall engagement.
+                </p>
+            </div>
+            <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                <div class="experience-year">January 2021 – June 2021</div>
+                <h3 class="experience-title">Web Designer Intern — Hoping Minds</h3>
+                <p class="experience-description">
+                    During my internship at Hoping Minds from January 2023 to June 2023, I successfully completed a
+                    comprehensive six-month full-stack development program that strengthened my skills in both front-end
+                    and back-end technologies. I gained hands-on experience with modern frameworks and deployment
+                    workflows, learning how to build efficient, scalable web solutions from the ground up. Throughout
+                    the internship, I developed several small-scale projects using HTML5, CSS3, and JavaScript, focusing
+                    on responsive design, clean UI structure, and performance optimization to ensure a seamless user
+                    experience.</p>
+            </div>
+            <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+                <div class="experience-year">2021 – Present</div>
+                <h3 class="experience-title">Freelance Web Designer</h3>
+                <p class="experience-description">
+                    As a Freelance Web Designer, I have designed and developed a variety of portfolio and business
+                    websites using WordPress, Shopify, and custom HTML/CSS solutions. My focus has always been on
+                    delivering clean, efficient, and responsive designs that are fully optimized for SEO, speed, and
+                    user experience. Working with clients from different industries, I’ve helped translate their unique
+                    brand identities into engaging and functional digital experiences that not only look beautiful but
+                    also perform seamlessly across all devices.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h2 class="section-title" data-aos="fade-up">Let's Connect</h2>
+        <p class="hero-description" data-aos="fade-up" data-aos-delay="100">
+            Have a project in mind? Let's work together to create something amazing!
+        </p>
+        <div class="contact-links">
+            <a href="mailto:kanishka1208@gmail.com" class="contact-link" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fas fa-envelope"></i> Email Me
+            </a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="contact-link" data-aos="zoom-in" data-aos-delay="250">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com" class="contact-link" data-aos="zoom-in" data-aos-delay="300">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
