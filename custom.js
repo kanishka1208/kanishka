@@ -13,7 +13,7 @@ function toggleTheme() {
 }
 
 function downloadCV() {
-  const cvURL = "./assets/images/kanishka.pdf";
+  const cvURL = "kanishka.pdf";
 
   window.open(cvURL, "_blank");
 }

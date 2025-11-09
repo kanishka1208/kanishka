@@ -638,9 +638,22 @@
         }
 
         .timeline {
-          padding-left: 30px;
+          padding-left: 15px;
         }
         .hero {
     grid-template-columns: 1fr;
       }
+      .timeline-item {
+    padding: 18px;
+}
+.experience-description {
+    font-size: 14px;
+}
+.projects-slider {
+    gap: 20px;
+    animation: slide 10s linear infinite;
+}
+.projects-section, .experience-section, .contact-section {
+    padding: 40px 20px;
+}
     }
