@@ -49,3 +49,11 @@ const nav = document.querySelector("header nav");
 mobileToggle.addEventListener("click", () => {
   nav.classList.toggle("show-nav");
 });
+var swiper = new Swiper(".projects-slider", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });

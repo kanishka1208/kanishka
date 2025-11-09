@@ -666,6 +666,9 @@
 .marquee-reverse {
     animation: marquee-reverse 5s linear infinite;
 }
+.marquee {
+    animation: marquee 5s linear infinite;
+}
 .skill-name {
     font-size: 16px;
 }
@@ -676,7 +679,7 @@
     padding: 0px 0;
 }
 .projects-slider {
-    animation: slide 6s linear infinite;
+    animation: slide 4s linear infinite;
 }
     }
       
